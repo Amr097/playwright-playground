@@ -1,0 +1,35 @@
+{
+  "cookies": [
+    {
+      "name": "accessToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1NzIxODAzLTgwNmItNDMwNy04NmIzLTkwMjRkODY4MmFjMCIsImZ1bGxOYW1lIjoiSm9obiIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoiam9obmRvZSIsInR5cGUiOiJJTlRFUk5BTCIsImFjdGl2ZSI6dHJ1ZSwicm9sZSI6eyJpZCI6ImZjZWI3MzNlLTQ4OTQtNDk5NS05ZmY4LTYzYTYxZjI1YmVlYyIsImNyZWF0ZWRBdCI6IjIwMjUtMTAtMjlUMTA6Mjg6MjEuOTU1WiIsInVwZGF0ZWRBdCI6IjIwMjUtMTAtMjlUMTA6Mjg6MjEuOTU1WiIsImRlbGV0ZWRBdCI6bnVsbCwibmFtZSI6IkFkbWluIiwiZGVzY3JpcHRpb24iOiJkZXNjcmlwdGlvbiIsInR5cGUiOiJJTlRFUk5BTCJ9LCJpYXQiOjE3NjM3NTk2NDcsImV4cCI6MTc3Mzc1OTY0Nn0.HTN16chIstMmMtr-IJ9CGDw7vAQ1l__6p-DfS_33lfE",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1773759647.008821,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refreshToken",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Ijk1NzIxODAzLTgwNmItNDMwNy04NmIzLTkwMjRkODY4MmFjMCIsImZ1bGxOYW1lIjoiSm9obiIsImVtYWlsIjoidXNlckBleGFtcGxlLmNvbSIsInVzZXJuYW1lIjoiam9obmRvZSIsInR5cGUiOiJJTlRFUk5BTCIsImFjdGl2ZSI6dHJ1ZSwicm9sZSI6eyJpZCI6ImZjZWI3MzNlLTQ4OTQtNDk5NS05ZmY4LTYzYTYxZjI1YmVlYyIsImNyZWF0ZWRBdCI6IjIwMjUtMTAtMjlUMTA6Mjg6MjEuOTU1WiIsInVwZGF0ZWRBdCI6IjIwMjUtMTAtMjlUMTA6Mjg6MjEuOTU1WiIsImRlbGV0ZWRBdCI6bnVsbCwibmFtZSI6IkFkbWluIiwiZGVzY3JpcHRpb24iOiJkZXNjcmlwdGlvbiIsInR5cGUiOiJJTlRFUk5BTCJ9LCJpYXQiOjE3NjM3NTk2NDcsImV4cCI6MTc2NDc1OTY0Nn0.qQTumJ16APs9sUBB7WikOMnBhWZ4Z4UCbeK_Owyq7-A",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1764759647.009558,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "persist:root",
+          "value": "{\"user\":\"{\\\"user\\\":null,\\\"addRolesModalOpen\\\":false,\\\"claims\\\":[]}\",\"account\":\"{\\\"createContactModalOpen\\\":false,\\\"createBankAccountModalOpen\\\":false,\\\"associateWarehouseModalOpen\\\":false,\\\"deleteWarehouseModal\\\":{\\\"isOpen\\\":false,\\\"warehouseId\\\":null,\\\"warehouseName\\\":null},\\\"contactTableUserToggleState\\\":{\\\"confirmModalOpen\\\":false,\\\"pendingToggleValue\\\":null,\\\"selectedContactId\\\":null},\\\"accountFilterOpen\\\":false,\\\"accountAppliedFilters\\\":[],\\\"accountFilterCurrentValues\\\":[],\\\"toggleAccountSelectColumnsModalOpen\\\":false,\\\"accountSelectColumns\\\":[\\\"accountName\\\",\\\"businessName\\\",\\\"industry.name\\\"],\\\"searchText\\\":\\\"\\\"}\",\"subscription\":\"{\\\"generalTab\\\":{\\\"accountId\\\":\\\"\\\",\\\"autoRenewal\\\":false,\\\"clientTechnology\\\":\\\"\\\",\\\"contractEndDate\\\":\\\"\\\",\\\"contractStartDate\\\":\\\"\\\",\\\"countryOfOperationsId\\\":\\\"\\\",\\\"businessType\\\":\\\"B2C\\\",\\\"status\\\":\\\"ACTIVE\\\"},\\\"packageDetails\\\":{\\\"packageId\\\":\\\"\\\",\\\"numberOfOrders\\\":0,\\\"numberOfReturns\\\":0,\\\"numberOfBins\\\":0,\\\"maxNumberOfPiecesPerOrder\\\":0,\\\"monthlySubscriptionFees\\\":0},\\\"monthlyOveragePrices\\\":{\\\"extraBinPrice\\\":0,\\\"extraOrderPrice\\\":0,\\\"extraReturnPrice\\\":0,\\\"priceOfExtraPiece\\\":0},\\\"slaParameters\\\":{\\\"warehouseStartingHour\\\":\\\"\\\",\\\"warehouseCutOffHour\\\":\\\"\\\"},\\\"addsPricing\\\":{},\\\"shippingInfo\\\":{\\\"zonePrices\\\":{},\\\"baseKilograms\\\":0,\\\"exchangeFees\\\":0,\\\"failedDeliveryFees\\\":0,\\\"failedReturnFees\\\":0},\\\"subscriptionSearchText\\\":\\\"\\\",\\\"subscriptionAppliedFilters\\\":[],\\\"subscriptionFilterCurrentValues\\\":[],\\\"toggleSubscriptionSelectColumnsModalOpen\\\":false,\\\"subscriptionFilterOpen\\\":false,\\\"subscriptionSelectColumns\\\":[\\\"code\\\",\\\"account.accountName\\\",\\\"package.name\\\",\\\"countryOfOperations.code\\\",\\\"contractStartDate\\\",\\\"contractEndDate\\\",\\\"status\\\"]}\",\"products\":\"{\\\"createPackingMaterialModalOpen\\\":false,\\\"packingMaterials\\\":[],\\\"selectedProducts\\\":[],\\\"selectProductsModalOpen\\\":false,\\\"productsFilterOpen\\\":false,\\\"productsAppliedFilters\\\":[],\\\"productsFilterCurrentValues\\\":[],\\\"toggleProductsSelectColumnsModalOpen\\\":false,\\\"productsSelectColumns\\\":[\\\"sku\\\",\\\"description\\\",\\\"name\\\",\\\"category.name\\\",\\\"sellingPrice\\\"],\\\"searchText\\\":\\\"\\\"}\",\"countries\":\"{\\\"addLocationModalOpen\\\":null}\",\"createWarehouse\":\"{\\\"name\\\":\\\"\\\",\\\"code\\\":\\\"\\\",\\\"providerId\\\":\\\"\\\",\\\"homeCountryId\\\":\\\"\\\",\\\"homeLocationId\\\":\\\"\\\",\\\"locationsServedIds\\\":[],\\\"countriesServedIds\\\":[],\\\"address\\\":\\\"\\\",\\\"primaryPhone\\\":\\\"\\\",\\\"secondaryPhone\\\":\\\"\\\",\\\"email\\\":\\\"\\\",\\\"blockedWarehouse\\\":false,\\\"externalId\\\":\\\"\\\"}\",\"createCourierIntegration\":\"{\\\"urlState\\\":\\\"\\\",\\\"bodyTableState\\\":{\\\"tableModal\\\":{\\\"isAddModalOpen\\\":false,\\\"isEditModalOpen\\\":false,\\\"isDeleteModalOpen\\\":false},\\\"tableRecords\\\":[]},\\\"headersTableState\\\":{\\\"tableModal\\\":{\\\"isAddModalOpen\\\":false,\\\"isEditModalOpen\\\":false,\\\"isDeleteModalOpen\\\":false},\\\"tableRecords\\\":[]},\\\"queryParamsTableState\\\":{\\\"tableModal\\\":{\\\"isAddModalOpen\\\":false,\\\"isEditModalOpen\\\":false,\\\"isDeleteModalOpen\\\":false},\\\"tableRecords\\\":[]}}\",\"navigation\":\"{\\\"collapsed\\\":true}\",\"salesOrder\":\"{\\\"salesOrderFilterOpen\\\":false,\\\"salesOrderAppliedFilters\\\":[],\\\"salesOrderFilterCurrentValues\\\":[],\\\"toggleSalesOrderSelectColumnsModalOpen\\\":false,\\\"salesOrderSelectColumns\\\":[\\\"salesOrderNumber\\\",\\\"status.name\\\",\\\"consignee.name\\\",\\\"orderType\\\",\\\"paymentType\\\",\\\"createdAt\\\"],\\\"searchText\\\":\\\"\\\"}\",\"bundles\":\"{\\\"bundlesFilterOpen\\\":false,\\\"bundlesAppliedFilters\\\":[],\\\"bundlesFilterCurrentValues\\\":[],\\\"toggleBundlesSelectColumnsModalOpen\\\":false,\\\"bundlesSelectColumns\\\":[\\\"sku\\\",\\\"name\\\",\\\"sellingPrice\\\"],\\\"searchText\\\":\\\"\\\"}\",\"_persist\":\"{\\\"version\\\":16,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}
