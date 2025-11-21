@@ -32,7 +32,7 @@ test("logs in and checks dashboard title", async ({ page }) => {
   const firstAccountLink = page.locator("#accountName-value").first();
   const accountName = await firstAccountLink.textContent();
 
-  const accountDetailsPromise = (accountId) =>
+  const accountDetailsPromise = (accountId: string) =>
     page.waitForResponse((response) => {
       const request = response.request();
       return (
@@ -56,10 +56,10 @@ test("logs in and checks dashboard title", async ({ page }) => {
   console.log("Account ID:", accountId);
   console.log("URL", `/accounts/${accountId}`);
 
-  await accountDetailsPromise(accountId);
+  await accountDetailsPromise(accountId as string);
 
   // Verify that the page title or heading matches the clicked account name
   await expect(page.locator("h4")).toHaveText(
-    new RegExp(accountName!.trim(), "i"),
+    new RegExp(accountName!.trim(), "i")
   );
 });

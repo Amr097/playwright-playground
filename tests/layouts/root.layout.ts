@@ -1,5 +1,5 @@
 import type { Page } from "@playwright/test";
-import path from "path";
+// import path from "path";
 
 type ModuleName =
   | "accounts"

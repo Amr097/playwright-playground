@@ -25,6 +25,6 @@ export default [
     ...playwright.configs["flat/recommended"],
   },
   {
-    ignores: ["node_modules", "dist", "build", "coverage", ".next", "*.config.js"],
+    ignores: ["node_modules", "dist", "build", "coverage", ".next", "*.config.js", "playwright-report", "test-results"],
   },
 ];

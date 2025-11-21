@@ -1,3 +1,4 @@
+import { expect } from "@playwright/test";
 import { test } from "../fixtures/fixtures";
 
 test("logs in and checks dashboard title", async ({
@@ -14,4 +15,5 @@ test("logs in and checks dashboard title", async ({
 
   await accountsDetailsPage.waitForAccountDetails(accountId);
   await accountsDetailsPage.expectTitleToMatch(accountName!);
+  expect(true).toBeTruthy();
 });

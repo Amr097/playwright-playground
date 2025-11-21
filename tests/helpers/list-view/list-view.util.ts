@@ -20,7 +20,7 @@ import { expect } from "@playwright/test";
  */
 export async function waitForTableLoading(
   page: Page,
-  apiCallPromise: Promise<any>,
+  apiCallPromise: Promise<unknown>
 ) {
   const table = page.locator(".ant-table");
   await expect(table).toBeVisible();
@@ -52,7 +52,7 @@ export async function validateTableState(page: Page) {
     emptyState.waitFor({ state: "visible" }),
   ]).catch(() => {
     throw new Error(
-      "❌ Table is invalid: no rows and no empty state appeared.",
+      "❌ Table is invalid: no rows and no empty state appeared."
     );
   });
 
